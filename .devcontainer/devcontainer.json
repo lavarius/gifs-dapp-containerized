@@ -1,0 +1,21 @@
+{
+    "name": "GIFs Solana Project",
+    "image": "gif-solana-project:latest",
+    "runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash",
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "rust-lang.rust",
+          "ms-vscode.cpptools",
+          "ms-vscode.vscode-node-azure-pack",
+          "esbenp.prettier-vscode"
+        ]
+      }
+    },
+    "remoteUser": "root",
+    "postCreateCommand": "rustup default 1.78.0 && solana --version 1.17.25 && anchor --version 0.30.0"
+  }
