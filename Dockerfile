@@ -31,7 +31,7 @@ RUN rustup component add clippy
 # RUN cargo --version
 
 # Install Solana CLI
-RUN sh -c "$(curl -sSfL https://release.solana.com/v1.17.25/install)"
+RUN sh -c "$(curl -sSfL https://release.solana.com/v1.18.14/install)"
 # Ensure the Solana CLI is added to the PATH
 ENV PATH="/root/.local/share/solana/install/active_release/bin:${PATH}"
 RUN solana --version

@@ -17,5 +17,5 @@
       }
     },
     "remoteUser": "root",
-    "postCreateCommand": "rustup default 1.78.0 && solana --version 1.17.25 && anchor --version 0.30.0"
+    "postCreateCommand": "rustup default 1.78.0 && solana --version 1.18.14 && anchor --version 0.30.0"
   }
