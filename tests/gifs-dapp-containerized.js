@@ -9,7 +9,7 @@ describe("gifs-dapp-containerized", () => {
   // Configure the client to use the local cluster.
   const provider = anchor.AnchorProvider.env()
   anchor.setProvider(provider);
-  const program = anchor.workspace.Gifsoldapp;
+  const program = anchor.workspace.Gifs_dapp_containerized;
   // let baseAccount;
 
   it("Starts stuff off, get the transaction, and count GIF", async () => {
