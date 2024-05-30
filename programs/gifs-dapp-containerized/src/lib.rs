@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::entrypoint::ProgramResult;
 
-declare_id!("D5ErZkzVpvkhv4pZoFWoN9Fku7SWzwpKxqux9rMwqNR7");
+declare_id!("DscCutv9QLURJGrs1hwoYAgeztnVyZQnkau5ZLnfLKQ9");
 
 #[program]
 pub mod gifs_dapp_containerized {
